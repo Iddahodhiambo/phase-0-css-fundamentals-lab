@@ -3,3 +3,37 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(143, 158, 202);
+}
+
+/* visited link */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+text-align: center;
+}
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+#details {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+#details div {
+  width: 25%;
+  text-align: center;
+
+}
